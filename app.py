@@ -5,7 +5,7 @@ import pandas as pd
 import tensorflow
 
 st.title('Churn Modelling')
-from tensorflow.keras.modedls import load_model
+from tensorflow.keras.models import load_model
 
 # Load the model
 model = load_model('model.h5')
